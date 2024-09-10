@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.text-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+/* Image/Graph styling */
+.image-content {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.image-content img {
+    max-width: 100%;
+    
+    height: auto;
+    
+}

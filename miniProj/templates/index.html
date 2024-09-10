@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Startup Data Analysis</title>
+</head>
+<body>
+    <h1>Startup Data Analysis</h1>
+
+    <h2>Profit Distribution</h2>
+    <img src="data:image/png;base64,{{ hist_plot }}" alt="Profit Distribution">
+
+    <h2>R&D Spend vs Profit</h2>
+    <img src="data:image/png;base64,{{ scatter_plot }}" alt="R&D Spend vs Profit">
+
+    <h2>Actual vs Predicted Profit</h2>
+    <img src="data:image/png;base64,{{ bar_plot }}" alt="Actual vs Predicted Profit">
+
+    <h2>Regression Plot</h2>
+    <img src="data:image/png;base64,{{ reg_plot }}" alt="Regression Plot">
+
+    <h2>R² Score</h2>
+    <p>{{ r2 }}%</p>
+</body>
+</html>
